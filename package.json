@@ -35,10 +35,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/technogix/website.git"
+        "url": "https://github.com/technogix/portal.git"
     },
     "bugs": {
-        "url": "https://github.com/technogix/website/issues"
+        "url": "https://github.com/technogix/portal/issues"
     },
     "eslintConfig": {
         "extends": [

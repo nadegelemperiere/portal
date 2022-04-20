@@ -18,9 +18,9 @@ scriptpath=`dirname $script`
 # Launch tests in docker container
 docker run  -it --rm --privileged \
             -v /var/run/docker.sock:/var/run/docker.sock \
-            --volume $scriptpath/../:/home/technogix/website:rw \
+            --volume $scriptpath/../:/home/technogix/portal:rw \
             --volume $scriptpath/../../vault/:/home/technogix/vault \
             --env VAULT_KEY=$VAULT_KEY \
-            --workdir /home/technogix/website \
+            --workdir /home/technogix/portal \
             technogix/terraform-python-awscli:v2.0.0 \
             ./scripts/trigger.sh -k VAULT_KEY $@

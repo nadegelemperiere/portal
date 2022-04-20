@@ -73,7 +73,7 @@ jobs:
                 token: ${{ secrets.CODECOV_TOKEN }}
                 files: clover.xml, coverage-final.json,lcov.info
                 directory: ./coverage/
-                name: codecov-website
+                name: codecov-${{ github.event.repository.name }}
                 fail_ci_if_error: true
                 verbose: true
                 commit_parent: ${{ github.ref_name }}
@@ -92,12 +92,12 @@ jobs:
                 dockerfile: Dockerfile
 
             - name: Build container
-              run: docker image build -t technogix/website:${{ github.sha }} .
+              run: docker image build -t technogix/${{ github.event.repository.name }}:${{ github.sha }} .
 
             - name: Check container
               uses: aquasecurity/trivy-action@master
               with:
-                image-ref: 'technogix/website:${{ github.sha }}'
+                image-ref: 'technogix/${{ github.event.repository.name }}:${{ github.sha }}'
                 format: 'sarif'
                 output: trivy.sarif
                 exit-code: '0'
@@ -113,7 +113,7 @@ jobs:
               run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USER }} --password-stdin
 
             - name: Publish container
-              run: docker image push technogix/website:${{ github.sha }}
+              run: docker image push technogix/${{ github.event.repository.name }}:${{ github.sha }}
 
     release:
         name: Release Website
@@ -124,21 +124,18 @@ jobs:
               run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USER }} --password-stdin
 
             - name: Retrieve container
-              run: docker image pull technogix/website:${{ github.sha }}
+              run: docker image pull technogix/${{ github.event.repository.name }}:${{ github.sha }}
 
             - name: Tag container for docker hub
-              run: docker image tag technogix/website:${{ github.sha }} technogix/website:${{ github.ref_name }}
-
-            - name: Tage container for aws repository
-              run: docker image tag technogix/website:${{ github.sha }} 833168553325.dkr.ecr.eu-west-1.amazonaws.com/website.technogix.prod:${{ github.ref_name }}
+              run: docker image tag technogix/${{ github.event.repository.name }}:${{ github.sha }} technogix/${{ github.event.repository.name }}:${{ github.ref_name }}
 
             - name: Release container in dockerhub
-              run: docker image push technogix/website:${{ github.ref_name }}
+              run: docker image push technogix/${{ github.event.repository.name }}:${{ github.ref_name }}
 
             - name: Checkout code
               uses: actions/checkout@master
               with:
-                path: website
+                path: portal
 
             - name: Retrieving vault
               uses: actions/checkout@master
@@ -148,13 +145,6 @@ jobs:
                 ref: v1.0.0
                 token: ${{ secrets.GH_ACCESS_TOKEN }}
 
-            - name: Release container in AWS
-              env:
-                VAULT_KEY: ${{ secrets.VAULT_KEY }}
-              uses: docker://technogix/terraform-python-awscli:v2.0.0
-              with:
-                args: ./website/scripts/push.sh --key VAULT_KEY --tag ${{ github.ref_name }}
-
     publish:
         name: Publish Website
         runs-on: ubuntu-latest
@@ -163,7 +153,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@master
               with:
-                path: website
+                path: portal
 
             - name: Retrieving vault
               uses: actions/checkout@master
@@ -178,5 +168,5 @@ jobs:
                 VAULT_KEY: ${{ secrets.VAULT_KEY }}
               uses: docker://technogix/terraform-python-awscli:v2.0.0
               with:
-                args: ./website/scripts/trigger.sh -b main -k VAULT_KEY
+                args: ./portal/scripts/trigger.sh -b main -k VAULT_KEY
 

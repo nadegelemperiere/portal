@@ -2,7 +2,7 @@
    :alt: Logo
 
 =================
-Technogix website
+Technogix portal
 =================
 
 .. image:: https://img.shields.io/website-up-down-green-red/http/technogix.io.svg

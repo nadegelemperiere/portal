@@ -67,7 +67,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@master
               with:
-                path: website
+                path: portal
 
             - name: Retrieving vault
               uses: actions/checkout@master
@@ -82,7 +82,7 @@ jobs:
                 VAULT_KEY: ${{ secrets.VAULT_KEY }}
               uses: docker://technogix/terraform-python-awscli:v2.0.0
               with:
-                args: ./website/scripts/url.sh -b develop -k VAULT_KEY
+                args: ./portal/scripts/url.sh -b develop -k VAULT_KEY
 
             - name: Reading file content
               id: url
