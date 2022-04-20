@@ -1,0 +1,749 @@
+[
+    {
+        "name":"Python",
+        "image": "assets/technologies/python.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "App definition & development",
+        "subcategory": "Languages & Frameworks",
+        "subcategoryShort": "Languages & Frameworks"
+    },
+    {
+        "name":"C/C++",
+        "image": "assets/technologies/c.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "App definition & development",
+        "subcategory": "Languages & Frameworks",
+        "subcategoryShort": "Languages & Frameworks"
+    },
+    {
+        "name":"React",
+        "image": "assets/technologies/react.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Languages & Frameworks",
+        "subcategoryShort": "Languages & Frameworks"
+    },
+    {
+        "name":"Postgresql",
+        "image": "assets/technologies/postgresql.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Database",
+        "subcategoryShort": "Database"
+    },
+    {
+        "name":"MongoDB",
+        "image": "assets/technologies/mongodb.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Database",
+        "subcategoryShort": "Database"
+    },
+    {
+        "name":"Kafka",
+        "image": "assets/technologies/kafka.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Emq",
+        "image": "assets/technologies/emq.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Azure Event Hubs",
+        "image": "assets/technologies/eventhub.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Siddhi",
+        "image": "assets/technologies/siddhi.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Spark",
+        "image": "assets/technologies/spark.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Flink",
+        "image": "assets/technologies/flink.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Nifi",
+        "image": "assets/technologies/nifi.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Streaming & Messaging",
+        "subcategoryShort": "Streaming & Messaging"
+    },
+    {
+        "name":"Docker Compose",
+        "image": "assets/technologies/compose.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "App definition & development",
+        "subcategory": "Application Definition & Image Build",
+        "subcategoryShort": "App Definition & Image Build"
+    },
+    {
+        "name":"Kaniko",
+        "image": "assets/technologies/kaniko.png",
+        "certification":{
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Application Definition & Image Build",
+        "subcategoryShort": "App Definition & Image Build"
+    },
+    {
+        "name":"Packer",
+        "image": "assets/technologies/packer.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "App definition & development",
+        "subcategory": "Application Definition & Image Build",
+        "subcategoryShort": "App Definition & Image Build"
+    },
+    {
+        "name":"Gitlab CI/CD",
+        "image": "assets/technologies/gitlab.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "App definition & development",
+        "subcategory": "Continuous Integration & Delivery",
+        "subcategoryShort": "CI/CD"
+    },
+    {
+        "name":"Github Actions",
+        "image": "assets/technologies/github.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "App definition & development",
+        "subcategory": "Continuous Integration & Delivery",
+        "subcategoryShort": "CI/CD"
+    },
+    {
+        "name":"Jenkins",
+        "image": "assets/technologies/jenkins.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "App definition & development",
+        "subcategory": "Continuous Integration & Delivery",
+        "subcategoryShort": "CI/CD"
+    },
+    {
+        "name":"AWS CodePipeline",
+        "image": "assets/technologies/awspipeline.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "App definition & development",
+        "subcategory": "Continuous Integration & Delivery",
+        "subcategoryShort": "CI/CD"
+    },
+    {
+        "name":"Argo",
+        "image": "assets/technologies/argo.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "App definition & development",
+        "subcategory": "Continuous Integration & Delivery",
+        "subcategoryShort": "CI/CD"
+    },
+    {
+        "name":"Nomad",
+        "image": "assets/technologies/nomad.png",
+        "certification":{
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Orchestration & Management",
+        "subcategory": "Scheduling & Orchestration",
+        "subcategoryShort": "Scheduling & Orchestration"
+    },
+    {
+        "name":"Docker swarm",
+        "image": "assets/technologies/swarm.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Orchestration & Management",
+        "subcategory": "Scheduling & Orchestration",
+        "subcategoryShort": "Scheduling & Orchestration"
+    },
+    {
+        "name":"Kubernetes",
+        "image": "assets/technologies/kubernetes.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Orchestration & Management",
+        "subcategory": "Scheduling & Orchestration",
+        "subcategoryShort": "Scheduling & Orchestration"
+    },
+    {
+        "name":"Etcd",
+        "image": "assets/technologies/etcd.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Orchestration & Management",
+        "subcategory": "Coordination & Service Discovery",
+        "subcategoryShort": "Coordination & Service Discovery"
+    },
+    {
+        "name":"Zookeeper",
+        "image": "assets/technologies/zookeeper.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "Orchestration & Management",
+        "subcategory": "Coordination & Service Discovery",
+        "subcategoryShort": "Coordination & Service Discovery"
+    },
+    {
+        "name":"Avro",
+        "image": "assets/technologies/avro.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Orchestration & Management",
+        "subcategory": "Remote Procedure Call",
+        "subcategoryShort": "Remote Procedure Call"
+    },
+    {
+        "name":"Nginx",
+        "image": "assets/technologies/nginx.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "Orchestration & Management",
+        "subcategory": "Service Proxy",
+        "subcategoryShort": "Service Proxy"
+    },
+    {
+        "name":"Ha-proxy",
+        "image": "assets/technologies/haproxy.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Orchestration & Management",
+        "subcategory": "Service Proxy",
+        "subcategoryShort": "Service Proxy"
+    },
+    {
+        "name":"Openresty",
+        "image": "assets/technologies/openresty.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Orchestration & Management",
+        "subcategory": "Service Proxy",
+        "subcategoryShort": "Service Proxy"
+    },
+    {
+        "name":"Consul",
+        "image": "assets/technologies/consul.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Orchestration & Management",
+        "subcategory": "Service Mesh",
+        "subcategoryShort": "Service Mesh"
+    },
+    {
+        "name":"Istio",
+        "image": "assets/technologies/istio.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "Orchestration & Management",
+        "subcategory": "Service Mesh",
+        "subcategoryShort": "Service Mesh"
+    },
+    {
+        "name":"Minio",
+        "image": "assets/technologies/minio.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Storage",
+        "subcategoryShort": "Cloud Native Storage"
+    },
+    {
+        "name":"AWS S3",
+        "image": "assets/technologies/s3.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Storage",
+        "subcategoryShort": "Cloud Native Storage"
+    },
+    {
+        "name":"AWS Elastic Block Storage",
+        "image": "assets/technologies/ebs.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Storage",
+        "subcategoryShort": "Cloud Native Storage"
+    },
+    {
+        "name":"Gluster FS",
+        "image": "assets/technologies/gluster.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Storage",
+        "subcategoryShort": "Cloud Native Storage"
+    },
+    {
+        "name":"Containerd",
+        "image": "assets/technologies/containerd.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Runtime",
+        "subcategory": "Container Runtime",
+        "subcategoryShort": "Container Runtime"
+    },
+    {
+        "name":"Kata",
+        "image": "assets/technologies/kata.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 2,
+        "category": "Runtime",
+        "subcategory": "Container Runtime",
+        "subcategoryShort": "Container Runtime"
+    },
+    {
+        "name":"Calico",
+        "image": "assets/technologies/calico.png",
+        "certification":{
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Network",
+        "subcategoryShort" : "Cloud Native Network"
+    },
+    {
+        "name":"Flannel",
+        "image": "assets/technologies/flannel.png",
+        "certification": {
+            "url":"",
+            "name":""
+        },
+        "level": 3,
+        "category": "Runtime",
+        "subcategory": "Cloud Native Network",
+        "subcategoryShort": "Cloud Native Network"
+    },
+    {
+        "name":"Terraform",
+        "image": "assets/technologies/terraform.png",
+        "certification": {
+            "url" : "https://www.credly.com/badges/85038c8a-68ed-4d77-ab0d-914a0fc1dc6a/public_url",
+            "name" : "Terraform Associate",
+            "image" : "https://images.credly.com/size/680x680/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
+        },
+        "level": 5,
+        "category": "Provisioning",
+        "subcategory": "Automation & Configuration",
+        "subcategoryShort": "Automation & Configuration",
+        "comments": "Frequently used on Microsoft Azure, AWS, OpenNebula infrastructures"
+    },
+    {
+        "name":"Ansible",
+        "image": "assets/technologies/ansible.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Provisioning",
+        "subcategory": "Automation & Configuration",
+        "subcategoryShort": "Automation & Configuration"
+    },
+    {
+        "name":"Azure Registry",
+        "image": "assets/technologies/azureregistry.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Provisioning",
+        "subcategory": "Container Registry",
+        "subcategoryShort": "Container Registry"
+    },
+    {
+        "name":"JFrog Artifactory",
+        "image": "assets/technologies/jfrog.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "Provisioning",
+        "subcategory": "Container Registry",
+        "subcategoryShort": "Container Registry"
+    },
+    {
+        "name":"Trivy",
+        "image": "assets/technologies/trivy.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Provisioning",
+        "subcategory": "Security & Compliance",
+        "subcategoryShort": "Security & Compliance"
+    },
+    {
+        "name":"Clair",
+        "image": "assets/technologies/clair.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "Provisioning",
+        "subcategory": "Security & Compliance",
+        "subcategoryShort": "Security & Compliance"
+    },
+    {
+        "name":"Hashicorp Vault",
+        "image": "assets/technologies/hashicorpvault.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Provisioning",
+        "subcategory": "Key management",
+        "subcategoryShort": "Key management"
+    },
+    {
+        "name":"Keycloak",
+        "image": "assets/technologies/keycloak.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Provisioning",
+        "subcategory": "Key management",
+        "subcategoryShort": "Key management"
+    },
+    {
+        "name":"Keepass",
+        "image": "assets/technologies/keepass.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Provisioning",
+        "subcategory": "Key management",
+        "subcategoryShort": "Key management"
+    },
+    {
+        "name":"Amazon Web Services (AWS)",
+        "image": "assets/technologies/aws.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Cloud",
+        "subcategory": "Public",
+        "subcategoryShort": "Public"
+    },
+    {
+        "name":"Microsoft Azure",
+        "image": "assets/technologies/azure.png",
+        "certification": {
+            "url":  "https://www.credly.com/badges/bad199f0-d9f5-4914-80e0-71366ddfcf3d/public_url",
+            "name": "Azure Fundamentals",
+            "image": "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+        },
+        "level": 4,
+        "category": "Cloud",
+        "subcategory": "Public",
+        "subcategoryShort": "Public"
+    },
+    {
+        "name":"OpenNebula",
+        "image": "assets/technologies/opennebula.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Cloud",
+        "subcategory": "Private",
+        "subcategoryShort": "Private"
+    },
+    {
+        "name":"VMWare",
+        "image": "assets/technologies/vmware.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Cloud",
+        "subcategory": "Private",
+        "subcategoryShort": "Private"
+    },
+    {
+        "name":"Prometheus",
+        "image": "assets/technologies/prometheus.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Observability & Analysis",
+        "subcategory": "Monitoring",
+        "subcategoryShort": "Monitoring"
+    },
+    {
+        "name":"Grafana",
+        "image": "assets/technologies/grafana.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Observability & Analysis",
+        "subcategory": "Monitoring",
+        "subcategoryShort": "Monitoring"
+    },
+    {
+        "name":"Cloudwatch",
+        "image": "assets/technologies/cloudwatch.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Observability & Analysis",
+        "subcategory": "Monitoring",
+        "subcategoryShort": "Monitoring"
+    },
+    {
+        "name":"Azure Monitor",
+        "image": "assets/technologies/azuremonitor.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Observability & Analysis",
+        "subcategory": "Monitoring",
+        "subcategoryShort": "Monitoring"
+    },
+    {
+        "name":"Elasticsearch",
+        "image": "assets/technologies/elastic.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Observability & Analysis",
+        "subcategory": "Logging",
+        "subcategoryShort": "Logging"
+    },
+    {
+        "name":"Logstash",
+        "image": "assets/technologies/logstash.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 5,
+        "category": "Observability & Analysis",
+        "subcategory": "Logging",
+        "subcategoryShort": "Logging"
+    },
+    {
+        "name":"Fluentd",
+        "image": "assets/technologies/fluentd.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category": "Observability & Analysis",
+        "subcategory": "Logging",
+        "subcategoryShort": "Logging"
+    },
+    {
+        "name":"Serverless",
+        "image": "assets/technologies/serverless.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category":"Serverless",
+        "subcategory":"Framework",
+        "subcategoryShort": "Framework"
+    },
+    {
+        "name":"AWS Lambda",
+        "image": "assets/technologies/awslambda.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category":"Serverless",
+        "subcategory":"Hosted Platform",
+        "subcategoryShort": "Hosted Platform"
+    },
+    {
+        "name":"Azure Functions",
+        "image": "assets/technologies/azurefunctions.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 3,
+        "category":"Serverless",
+        "subcategory":"Hosted Platform",
+        "subcategoryShort": "Hosted Platform"
+    }
+]
