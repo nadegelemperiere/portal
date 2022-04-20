@@ -1,0 +1,34 @@
+[
+    {
+        "path": "/",
+        "element": "Landing"
+    },
+    {
+        "path": "/home",
+        "element": "Home"
+    },
+    {
+        "path": "/skills",
+        "element": "Skills"
+    },
+    {
+        "path": "/environment",
+        "element": "Environment"
+    },
+    {
+        "path": "/policy",
+        "element": "Policy"
+    },
+    {
+        "path": "/status",
+        "element": "Status"
+    },
+    {
+        "path": "*",
+        "element": "NotFound"
+    },
+    {
+        "path": "/loading",
+        "element": "Loading"
+    }
+]

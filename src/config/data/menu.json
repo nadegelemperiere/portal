@@ -1,0 +1,63 @@
+{
+    "height": "84px",
+    "margin": "20px",
+    "maxWidth": "1100px",
+    "hamburgerHeight": "30px",
+    "content": [
+        {
+            "id": "home",
+            "path": "/home",
+            "target": "_top"
+        },
+        {
+            "id": "skills",
+            "subitems": [
+                {
+                    "id": "skills_experience",
+                    "path": "/skills#experience",
+                    "target": "_top"
+                },
+                {
+                    "id": "skills_education",
+                    "path": "/skills#education",
+                    "target": "_top"
+                },
+                {
+                    "id": "skills_landscape",
+                    "path": "/skills#landscape",
+                    "target": "_top"
+                }
+            ]
+        },
+        {
+            "id": "environment",
+            "subitems": [
+                {
+                    "id": "environment_workplace",
+                    "path": "/environment#workplace",
+                    "target": "_top"
+                },
+                {
+                    "id": "environment_ecosystem",
+                    "path": "/environment#ecosystem",
+                    "target": "_top"
+                }
+            ]
+        },
+        {
+            "id": "work",
+            "subitems": [
+                {
+                    "id": "github",
+                    "path": "https://github.com/technogix/",
+                    "target": "_target"
+                },
+                {
+                    "id": "wiki",
+                    "path": "https://pages.technogix.io/.github/",
+                    "target": "_target"
+                }
+            ]
+        }
+    ]
+}

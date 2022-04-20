@@ -1,0 +1,30 @@
+[
+    {
+        "date":"1995",
+        "location":"Lycée E.Thomas",
+        "link":"https://eugene-thomas-le-quesnoy.enthdf.fr/",
+        "id1": "skills_education_bac1",
+        "id2": "skills_education_bac2"
+    },
+    {
+        "date":"1995-1997",
+        "location":"Lycée H.Wallon",
+        "link":"https://lyceewallon.wixsite.com/cpge",
+        "id1": "skills_education_prepa1",
+        "id2": "skills_education_prepa2"
+    },
+    {
+        "date":"1997-2000",
+        "location":"Institut d'Optique",
+        "link":"https://www.institutoptique.fr/en",
+        "id1": "skills_education_inge1",
+        "id2": "skills_education_inge2"
+    },
+    {
+        "date":"1998-2000",
+        "location":"Institut d'Optique",
+        "link":"https://www.institutoptique.fr/en",
+        "id1": "skills_education_master1",
+        "id2": "skills_education_master2"
+    }
+]

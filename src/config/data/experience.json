@@ -1,0 +1,132 @@
+[
+    {
+        "date": "1999-2001",
+        "title": "skills_experience_title1",
+        "location": "skills_experience_loc1",
+        "description": ["skills_experience_desc1"],
+        "keywords": ["FFT", "Sensor modelling", "Image processing"],
+        "references": [
+            {
+                "url": "https://www.researchgate.net/publication/5502340_Measuring_Earthquakes_from_Optical_Satellite_Images",
+                "title": "Measuring earthquakes from optical satellite images",
+                "type": "publication",
+                "date": "2000/07/10",
+                "reference": "10.1364/AO.39.003486"
+            }
+        ]
+    },
+    {
+        "date": "2001-2009",
+        "title": "skills_experience_title2",
+        "location": "skills_experience_loc2",
+        "description": [
+            "skills_experience_desc2_1",
+            "skills_experience_desc2_2",
+            "skills_experience_desc2_3"
+        ],
+        "keywords": ["Support Vector Machine", "Neural network", "Kalman Filtering", "Particle Filtering", "Embedded Real Time"],
+        "references": [
+            {
+                "url": "https://patents.google.com/patent/US8558891B2/en",
+                "title": "Method of detecting an object in a scene comprising artifacts",
+                "reference": "US 20110080480",
+                "date": "2011/04/07",
+                "type": "patent"
+            },
+            {
+                "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2009053461",
+                "title": "Method for detecting a target",
+                "reference": "EU PCT/EP2008/064436",
+                "date": "2009/04/30",
+                "type": "patent"
+            },
+            {
+                "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2006032650&_cid=P20-L1C5T2-48164-1",
+                "title": "Method for detecting and tracking punctual targets, in an optoelectronic surveillance system",
+                "reference": "EU PCT/EP2005/054670",
+                "date": "2006/03/30",
+                "type": "patent"
+            }
+        ]
+    },
+    {
+        "date": "2009-2014",
+        "title": "skills_experience_title3",
+        "location": "skills_experience_loc3",
+        "description": [
+            "skills_experience_desc3_1",
+            "skills_experience_desc3_2"
+        ],
+        "keywords": ["Fingerprint", "Iris", "Face recognition", "Machine learning", "CI/CD"],
+        "references": [
+            {
+                "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2012156333&recNum=160&docAn=EP2012058835&queryString=&maxRec=4643141",
+                "title": "Method of searching for parametrized contours for comparing irises",
+                "reference": "EU WO/2012/156333",
+                "date": "2012/11/22",
+                "type": "patent"
+            },
+            {
+                "url": "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2012079996",
+                "title": "Method of comparing images of irises by intelligent selection of textured zones",
+                "reference": "WO/2012/079996",
+                "date": "2012/06/21",
+                "type": "patent"
+            },
+            {
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S107731421300012X",
+                "title": "Effective elliptic fitting for iris normalization",
+                "reference": "1077-3142",
+                "date": "2013/06/01",
+                "type": "publication"
+            },
+            {
+                "url": "https://ieeexplore.ieee.org/document/6617148",
+                "title": "Quality driven iris recognition improvement",
+                "reference": "978-3-88579-606-0",
+                "date": "2013/09/05",
+                "type": "publication"
+            },
+            {
+                "url": "https://link.springer.com/chapter/10.1007/978-3-642-39094-4_12",
+                "title": "Fusion of Novel Iris Segmentation Quality Metrics for Failure Detection",
+                "reference": "978-3-642-39093-7",
+                "date": "2013/01/01",
+                "type": "publication"
+            },
+            {
+                "url": "https://ieeexplore.ieee.org/document/6313538",
+                "title": "How a local quality measure can help improving iris recognition",
+                "reference": "N.A.",
+                "date": "2012/09/07",
+                "type": "publication"
+            }
+        ]
+    },
+    {
+        "date": "2015-2018",
+        "title": "skills_experience_title4",
+        "location": "skills_experience_loc4",
+        "description": [
+            "skills_experience_desc4_1",
+            "skills_experience_desc4_2",
+            "skills_experience_desc4_3"
+        ],
+        "keywords": ["GPU", "Deep learning", "Data stacks", "Containers", "Orchestration", "CI/CD"],
+        "references": []
+    },
+    {
+        "date": "2019-2022",
+        "title": "skills_experience_title5",
+        "location": "skills_experience_loc5",
+        "description": [
+            "skills_experience_desc5_1",
+            "skills_experience_desc5_2",
+            "skills_experience_desc5_3",
+            "skills_experience_desc5_4",
+            "skills_experience_desc5_5"
+        ],
+        "keywords": ["Digital Transformation", "Large Scale Agility", "Cloud architecture", "DevSecOps", "Cybersecurity"],
+        "references": []
+    }
+]
