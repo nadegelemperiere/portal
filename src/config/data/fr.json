@@ -58,7 +58,7 @@
     "home_whatido1":                    "Clarifier le cycle de vie de la solution",
     "home_whatido2":                    "Definir la strategie de test de la solution",
     "home_whatido3":                    "Definir la strategie de monitoring et les indicateurs a collecter",
-    "home_whatido4":                    "Identifier les risques de sécurité et leur mitigation",
+    "home_whatido4":                    "Identifier les risques de sécurité et définir une stratégie de mitigation",
     "home_whatido5":                    "Activites de delivery",
     "home_whatido6":                    "Mise en place d'environnement d'ingenierie",
     "home_whatido7":                    "Definition et mise en place de pipeline d'integration continue",
