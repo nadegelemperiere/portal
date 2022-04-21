@@ -5,7 +5,7 @@
 Technogix portal
 =================
 
-.. image:: https://img.shields.io/website-up-down-green-red/http/technogix.io.svg
+.. image:: https://img.shields.io/website-up-down-green-red/https/technogix.io.svg
    :target: https://technogix.io
    :alt: Website
 
