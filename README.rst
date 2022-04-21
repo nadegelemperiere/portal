@@ -79,8 +79,8 @@ Testing
 =======
 
 
-.. image:: https://codecov.io/gh/technogix/portal
-   :target: https://codecov.io/gh/technogix/portal/branch/main/graph/badge.svg?token=MCRQQ7PXI2
+.. image:: https://codecov.io/gh/technogix/portal/branch/main/graph/badge.svg?token=MCRQQ7PXI2
+   :target: https://codecov.io/gh/technogix/portal
    :alt: codecov
 
 Security
