@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Policy page
@@ -49,41 +47,6 @@ function Status() {
                 <Typography variant="h1" style={{ paddingBottom:'10px' }}>
                     {intl.formatMessage({ id: 'footer_general_conditions', defaultMessage: '' })}
                 </Typography>
-            </Box>
-            <Box id='edition' style={{ paddingLeft:'10px', paddingRight:'10px' }}>
-                <Typography variant="h2" style={{ paddingBottom:'10px' }}>
-                    {intl.formatMessage({ id: 'status_editor', defaultMessage: '' })}
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general0', defaultMessage: '' })} : </b>
-                    Technogix
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general1', defaultMessage: '' })} : </b>
-                    SARL
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general2', defaultMessage: '' })} : </b>
-                    5000 euros (15/04/2022)
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general3', defaultMessage: '' })} : </b>
-                    3 impasse Wagner - 92130 Issy les Moulineaux
-                </Typography><Typography >
-                    email: contact.technogix@gmail.com
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general4', defaultMessage: '' })} : </b>
-                    TBD
-                </Typography>
-                <Typography >
-                    <b>{intl.formatMessage({ id: 'status_general5', defaultMessage: '' })} : </b>
-                    TBD
-                </Typography>
-                <Typography >
-                    <b>No INPI :</b> 22 4 837 865
-                </Typography>
-                <Divider style={{ width:'100%' }} />
             </Box>
             <Box id='hosting' style={{ paddingLeft:'10px', paddingRight:'10px' }}>
                 <Typography variant="h2" style={{ paddingBottom:'10px' }}>

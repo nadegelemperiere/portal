@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Config provider mock
@@ -26,7 +24,7 @@ function mockWithConfig(Component) {
             <mockContextConfig.Consumer> {(contextProps) => <Component {...contextProps} {...props} /> }</mockContextConfig.Consumer>
         );
         /* eslint-enable react/jsx-props-no-spreading */
-    
+
     }
     return ChildComponent;
 
@@ -41,7 +39,7 @@ function MockProvider(props) {
         appConfig: {},
         ...props,
     };
-    
+
     /* ----------- Define HTML --------- */
     return (
         <mockContextConfig.Provider value={mockedValues}>

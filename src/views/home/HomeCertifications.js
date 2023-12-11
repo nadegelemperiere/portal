@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Home page
@@ -29,6 +27,7 @@ function HomeCertifications() {
     /* --------- Gather inputs --------- */
     const intl = useIntl();
     const { technologyCertified } = useTechnologies();
+    console.log(technologyCertified)
     // const componentName = 'HomeCertifications';
 
     /* ----------- Define HTML --------- */

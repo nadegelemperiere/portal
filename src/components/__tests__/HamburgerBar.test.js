@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Hamburger bar for mobile navigation testing
@@ -53,7 +51,7 @@ test('Should change bar theme when user is sliding', () => {
 
     })
     /* eslint-disable testing-library/no-unnecessary-act, testing-library/no-node-access */
-    
+
     expect(screen.getByPlaceholderText('hamburgerbar')).toBeTruthy();
     /*expect(screen.getByPlaceholderText('hamburgerbar')).toHaveStyle('background-color: rgb(35, 168, 212);');*/
 

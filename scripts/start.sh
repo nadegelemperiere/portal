@@ -1,8 +1,6 @@
 #!/bin/bash
 # -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Module to start a development server to develop application
@@ -16,4 +14,4 @@ script=$(readlink -f $0)
 scriptpath=`dirname $script`
 
 # Launch container in development mode
-docker container run --rm --volume ${scriptpath}/../:/work:rw -p 3000:3000 -it --workdir /work node:alpine3.15 npm start
+docker container run --rm --volume ${scriptpath}/../:/work:rw -p 3000:3000 -it --workdir /work node:alpine3.18 npm start

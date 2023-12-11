@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Menu provider mock
@@ -35,7 +33,7 @@ function mockWithMenu(Component) {
 function MockProvider(props) {
 
     const { children } = props;
- 
+
     /* ----- Define provider values ---- */
     mockedValues = {
         toggleThis(value, newValue = null) {},
@@ -48,7 +46,7 @@ function MockProvider(props) {
         supportsWebp: true,
         ...props,
     };
-    
+
     /* ----------- Define HTML --------- */
     return (
         <mockContextMenu.Provider value={mockedValues}>

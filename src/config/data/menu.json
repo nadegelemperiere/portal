@@ -30,31 +30,16 @@
             ]
         },
         {
-            "id": "environment",
-            "subitems": [
-                {
-                    "id": "environment_workplace",
-                    "path": "/environment#workplace",
-                    "target": "_top"
-                },
-                {
-                    "id": "environment_ecosystem",
-                    "path": "/environment#ecosystem",
-                    "target": "_top"
-                }
-            ]
-        },
-        {
             "id": "work",
             "subitems": [
                 {
                     "id": "github",
-                    "path": "https://github.com/technogix/",
+                    "path": "https://github.com/nadegelemperiere/",
                     "target": "_target"
                 },
                 {
-                    "id": "wiki",
-                    "path": "https://pages.technogix.io/.github/",
+                    "id": "gbr",
+                    "path": "https://github.com/the-green-brick-road/",
                     "target": "_target"
                 }
             ]

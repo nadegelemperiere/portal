@@ -30,7 +30,7 @@
             "url":  "",
             "name": ""
         },
-        "level": 3,
+        "level": 4,
         "category": "App definition & development",
         "subcategory": "Languages & Frameworks",
         "subcategoryShort": "Languages & Frameworks"
@@ -198,7 +198,7 @@
             "url":  "",
             "name": ""
         },
-        "level": 3,
+        "level": 4,
         "category": "App definition & development",
         "subcategory": "Continuous Integration & Delivery",
         "subcategoryShort": "CI/CD"
@@ -580,6 +580,18 @@
     {
         "name":"Amazon Web Services (AWS)",
         "image": "assets/technologies/aws.png",
+        "certification": {
+            "url":  "",
+            "name": ""
+        },
+        "level": 4,
+        "category": "Cloud",
+        "subcategory": "Public",
+        "subcategoryShort": "Public"
+    },
+    {
+        "name":"Google Firebase",
+        "image": "assets/technologies/firebase.png",
         "certification": {
             "url":  "",
             "name": ""

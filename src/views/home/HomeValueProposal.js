@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # "Value proposal" part of Home page
@@ -66,6 +64,7 @@ function HomeValueProposal() {
                             {intl.formatMessage({ id: 'home_value_proposal15', defaultMessage: '' }) }
                             {intl.formatMessage({ id: 'home_value_proposal16', defaultMessage: '' }) }
                             {intl.formatMessage({ id: 'home_value_proposal17', defaultMessage: '' }) }
+                            {intl.formatMessage({ id: 'home_value_proposal172', defaultMessage: '' }) }
                         </Typography>
                     </Paper>
                 </Grid>

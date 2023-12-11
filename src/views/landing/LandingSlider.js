@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Landing page
@@ -57,7 +55,7 @@ function LandingSlider(props) {
                 <Stack direction="row" spacing={2} alignItems="center" height={heightLogoString} style={{ paddingLeft: '5px', paddingBottom: '5px', paddingTop: '5px', paddingRight: '0px' }}>
                     <Image reference="logoWhite" style={{ height, width: 'auto', textAlign: 'left', display: 'inline-block' }} />
                     <Typography style={{ paddingRight: margin, fontFamily: 'Roboto Condensed', borderWidth: '5px', borderBottomStyle: 'solid', height: underlineString, verticalAlign: 'middle' }}>
-                        TECHNOGIX
+                        NADEGE LEMPERIERE
                     </Typography>
                 </Stack>
             </Logo>

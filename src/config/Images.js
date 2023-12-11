@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Responsive images preloading
@@ -322,36 +320,36 @@ const Images = {
         },
         default: require('../assets/notfound.jpg'),
     },
-    environment: {
+    work: {
         webp: {
             small: {
-                img: require('../assets/320/environment.webp'),
+                img: require('../assets/320/work.webp'),
                 width: '320w',
             },
             medium: {
-                img: require('../assets/768/environment.webp'),
+                img: require('../assets/768/work.webp'),
                 width: '768w',
             },
             large: {
-                img: require('../assets/environment.webp'),
+                img: require('../assets/work.webp'),
                 width: '2500w',
             },
         },
         jpg: {
             small: {
-                img: require('../assets/320/environment.jpg'),
+                img: require('../assets/320/work.jpg'),
                 width: '320w',
             },
             medium: {
-                img: require('../assets/768/environment.jpg'),
+                img: require('../assets/768/work.jpg'),
                 width: '768w',
             },
             large: {
-                img: require('../assets/environment.jpg'),
+                img: require('../assets/work.jpg'),
                 width: '2500w',
             },
         },
-        default: require('../assets/environment.jpg'),
+        default: require('../assets/work.jpg'),
     },
     infrastructure: {
         webp: {

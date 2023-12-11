@@ -1,8 +1,6 @@
 #!/bin/bash
 # -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Script to trigger aws amplify webhook
@@ -22,5 +20,5 @@ docker run  -it --rm --privileged \
             --volume $scriptpath/../../vault/:/home/technogix/vault \
             --env VAULT_KEY=$VAULT_KEY \
             --workdir /home/technogix/portal \
-            technogix/terraform-python-awscli:v2.0.0 \
+            technogix/terraform-python-awscli:v3.0.0 \
             ./scripts/url.sh -k VAULT_KEY $@

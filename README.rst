@@ -1,9 +1,9 @@
 .. image:: docs/imgs/logo.png
    :alt: Logo
 
-=================
-Technogix portal
-=================
+========================
+Nadege Lemperiere portal
+========================
 
 .. image:: https://img.shields.io/website-up-down-green-red/https/technogix.io.svg
    :target: https://technogix.io
@@ -14,17 +14,17 @@ About The Project
 
 This project provides a set of robotframework keywords used to check the results of terraform deployments.
 
-.. image:: https://badgen.net/github/checks/technogix/portal
-   :target: https://github.com/technogix/portal/actions/workflows/release.yml
+.. image:: https://badgen.net/github/checks/nadegelemperiere/portal
+   :target: https://github.com/nadegelemperiere/portal/actions/workflows/release.yml
    :alt: Status
 .. image:: https://img.shields.io/static/v1?label=license&message=Proprietary&color=informational
    :target: ./LICENSE
    :alt: License
-.. image:: https://badgen.net/github/commits/technogix/portal/main
-   :target: https://github.com/technogix/portal
+.. image:: https://badgen.net/github/commits/nadegelemperiere/portal/main
+   :target: https://github.com/nadegelemperiere/portal
    :alt: Commits
-.. image:: https://badgen.net/github/last-commit/technogix/portal/main
-   :target: https://github.com/technogix/portal
+.. image:: https://badgen.net/github/last-commit/nadegelemperiere/portal/main
+   :target: https://github.com/nadegelemperiere/portal
    :alt: Last commit
 
 Built With
@@ -43,15 +43,14 @@ Built With
 Principle
 =========
 
-This project releases a container containing the Technogix react website served using nginx.
+This project releases a container containing the react website served using nginx.
 
 It also triggers an AWS amplify service that will build and publish the website
 
 Prerequisites
 =============
 
-
-The development of the technogix website uses the node alpine container. You shall be able to retrieve it from the docker hub using :
+The development of this website uses the node alpine container. You shall be able to retrieve it from the docker hub using :
 
 .. code:: bash
     docker pull node:alpine-latest
@@ -69,7 +68,7 @@ The production server used is Nginx. The application is built using node.js, the
 Publication
 ===========
 
-The target publication is an AWS amplify application. The CI/CD pipeline is designed to automatically retrieve the AWS amplify webhook from the terraform backend bucket located in Technogix infrastructure.
+The target publication is an AWS amplify application. The CI/CD pipeline is designed to automatically retrieve the AWS amplify webhook from the terraform backend bucket located in AWS infrastructure.
 
 A standard build triggers the AWS amplify "develop" branch, that will then retrieve the source code on the github repository develop branch and publish it for testing purpose through a secured access.
 
@@ -79,8 +78,8 @@ Testing
 =======
 
 
-.. image:: https://codecov.io/gh/technogix/portal/branch/main/graph/badge.svg?token=MCRQQ7PXI2
-   :target: https://codecov.io/gh/technogix/portal
+.. image:: https://codecov.io/gh/nadegelemperiere/portal/branch/main/graph/badge.svg?token=MCRQQ7PXI2
+   :target: https://codecov.io/gh/nadegelemperiere/portal
    :alt: codecov
 
 Security
@@ -93,11 +92,11 @@ The develop branch website will be regularly tested for vulnerabilities using za
 Issues
 ======
 
-.. image:: https://img.shields.io/github/issues/technogix/portal.svg
-   :target: https://github.com/technogix/portal/issues
+.. image:: https://img.shields.io/github/issues/nadegelemperiere/portal.svg
+   :target: https://github.com/nadegelemperiere/portal/issues
    :alt: Open issues
-.. image:: https://img.shields.io/github/issues-closed/technogix/portal.svg
-   :target: https://github.com/technogix/portal/issues
+.. image:: https://img.shields.io/github/issues-closed/nadegelemperiere/portal.svg
+   :target: https://github.com/nadegelemperiere/portal/issues
    :alt: Closed issues
 
 Known limitations
@@ -111,20 +110,20 @@ Roadmap
 Contributing
 ============
 
-.. image:: https://contrib.rocks/image?repo=technogix/portal
+.. image:: https://contrib.rocks/image?repo=nadegelemperiere/portal
    :alt: GitHub Contributors Image
 
-This website is dedicated to the Technogix SARL promotion. No contribution is required.
+This website is dedicated to self  promotion. No contribution is required.
 
 License
 =======
 
-This code is under Technogix copyright.
+This code is under copyright.
 
 Contact
 =======
 
-Technogix - contact.technogix@gmail.com
+Nadege Lemperiere - nadege.lemperiere@gmail.com
 
 Acknowledgments
 ===============

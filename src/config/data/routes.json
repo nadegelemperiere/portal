@@ -12,10 +12,6 @@
         "element": "Skills"
     },
     {
-        "path": "/environment",
-        "element": "Environment"
-    },
-    {
         "path": "/policy",
         "element": "Policy"
     },

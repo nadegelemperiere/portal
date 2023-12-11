@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Responsive image handling srcset, webp and fallbacks
@@ -51,10 +49,10 @@ function FooterDesktop() {
                                 </Grid>
                                 <Grid item xs={10} sm={10} md={10} style={{ paddingTop:'5px', verticalAlign:'middle' }}>
                                     <Typography style={{ color:theme.palette.primary.main, fontSize:'10px' }}>
-                                        3 impasse Wagner
+                                        430 orienta avenue
                                     </Typography>
                                     <Typography style={{ color:theme.palette.primary.main, fontSize:'10px' }}>
-                                        92130 Issy les Moulineaux
+                                        Mamaroneck, NY 10543
                                     </Typography>
                                 </Grid>
                             </Grid>

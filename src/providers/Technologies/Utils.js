@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Technologies provider functions
@@ -117,7 +115,9 @@ function initializeProvider(technologies, palette) {
     /* Initialize all technologies selection status to false */
     for (let i = 0; i < technologies.length; i += 1) {
         result.status[technologies[i].name] = false;
-        if (technologies[i].certification.url !== '') { result.certified.push(technologies[i]); }
+        if (technologies[i].certification.url !== '') {
+            result.certified.push(technologies[i]);
+        }
     }
 
     /* List all distinct categories and give a color to each of them */

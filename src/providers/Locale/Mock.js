@@ -1,7 +1,5 @@
 /* -------------------------------------------------------
-# TECHNOGIX
-# -------------------------------------------------------
-# Copyright (c) [2022] Technogix SARL
+# Copyright (c) [2022] Nadege Lemperiere
 # All rights reserved
 # -------------------------------------------------------
 # Locale provider mock
@@ -37,14 +35,14 @@ function MockProvider(props) {
     const { children } = props;
 
     function mockSetLocale(locale) {}
- 
+
     /* ----- Define provider values ---- */
     mockedValues = {
         locale: 'en',
         setLocale: mockSetLocale,
         ...props,
     };
-    
+
     /* ----------- Define HTML --------- */
     return (
         <mockContextLocale.Provider value={mockedValues}>
