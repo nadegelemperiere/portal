@@ -38,7 +38,7 @@ jobs:
                 args: --sarif-file-output=snyk.sarif
 
             - name: Upload result to GitHub Code Scanning
-              uses: github/codeql-action/upload-sarif@v1
+              uses: github/codeql-action/upload-sarif@main
               if: always()
               with:
                 sarif_file: snyk.sarif
@@ -62,7 +62,7 @@ jobs:
                 args: npm test
 
             - name: Upload coverage to Codecov
-              uses: codecov/codecov-action@v2
+              uses: codecov/codecov-action@main
               with:
                 token: ${{ secrets.CODECOV_TOKEN }}
                 files: clover.xml, coverage-final.json,lcov.info
@@ -81,7 +81,7 @@ jobs:
               uses: actions/checkout@master
 
             - name: Check dockerfile
-              uses: hadolint/hadolint-action@v1.6.0
+              uses: hadolint/hadolint-action@master
               with:
                 dockerfile: Dockerfile
 
@@ -98,7 +98,7 @@ jobs:
                 ignore-unfixed: true
 
             - name: Upload result to GitHub Code Scanning
-              uses: github/codeql-action/upload-sarif@v1
+              uses: github/codeql-action/upload-sarif@main
               if: always()
               with:
                 sarif_file: trivy.sarif
