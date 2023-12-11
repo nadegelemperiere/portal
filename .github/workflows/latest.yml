@@ -79,7 +79,6 @@ jobs:
                 name: codecov-portal
                 fail_ci_if_error: true
                 verbose: true
-                commit_parent: ${{ github.sha }}
 
     package:
         name: Package Website
@@ -139,7 +138,7 @@ jobs:
               with:
                 repository: nadegelemperiere/vault
                 path: vault
-                ref: v2.1.0
+                ref: v2.0.0
                 token: ${{ secrets.GH_ACCESS_TOKEN }}
 
             - name: Triggering amplify webhook
