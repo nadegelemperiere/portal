@@ -19,7 +19,7 @@ ignore:
         reason: No update available for react-scripts
         expires: 2030-03-11T00:00:00.000Z
         created: 2023-12-11T18:24:00.000Z
-  SSNYK-JS-POSTCSS-5926692:
+  SNYK-JS-POSTCSS-5926692:
     - 'react-scripts@5.0.0 > resolve-url-loader@4.0.0 > postcss@7.0.39':
         reason: No update available for react-scripts
         expires: 2030-03-11T00:00:00.000Z
