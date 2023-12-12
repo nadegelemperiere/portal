@@ -20,19 +20,22 @@ FROM nginx:1.25.3-alpine
 COPY --from=build /work/build /usr/share/nginx/html
 COPY config/nginx.conf /etc/nginx/conf.d/default.conf
 
+# Upgrading curl to fix CVE-2023-46218
+RUN apk update && apk add curl
+
 # Healthcheck
 HEALTHCHECK --interval=12s --timeout=12s --start-period=30s CMD curl --fail http://localhost || exit 1
 
 # Create non root user
-RUN adduser -D --home /home/technogix technogix && \
+RUN adduser -D --home /home/portal portal && \
     touch /var/run/nginx.pid && \
-    chown -R technogix:technogix /usr/share/nginx/html && \
+    chown -R portal:portal /usr/share/nginx/html && \
     chmod -R 755 /usr/share/nginx/html/ && \
-    chown -R technogix:technogix /var/cache/nginx && \
-    chown -R technogix:technogix /var/log/nginx && \
-    chown -R technogix:technogix /etc/nginx/conf.d && \
-    chown -R technogix:technogix /var/run/nginx.pid
-USER technogix
+    chown -R portal:portal /var/cache/nginx && \
+    chown -R portal:portal /var/log/nginx && \
+    chown -R portal:portal /etc/nginx/conf.d && \
+    chown -R portal:portal /var/run/nginx.pid
+USER portal
 
 # Serve application
 EXPOSE 8080
